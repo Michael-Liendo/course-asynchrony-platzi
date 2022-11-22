@@ -1,0 +1,16 @@
+{
+  "name": "course-asynchrony-platzi",
+  "version": "0.0.1",
+  "description": "Learn asynchrony in platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "platzi",
+    "learn"
+  ],
+  "author": "Michael Liendo <contact@michaelliendo.com> (https://michaelliendo.com/)",
+  "license": "MIT"
+}
