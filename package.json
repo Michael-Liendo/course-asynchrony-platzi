@@ -1,11 +1,12 @@
 {
   "name": "course-asynchrony-platzi",
+  "type": "module",
   "version": "0.0.1",
   "description": "Learn asynchrony in platzi",
   "main": "index.js",
   "scripts": {
     "callback": "node src/callback/challenge.js",
-    "promise":"node src/promise/index.js"
+    "promise": "node src/promise/challenge.js"
   },
   "keywords": [
     "javascript",
@@ -15,6 +16,7 @@
   "author": "Michael Liendo <contact@michaelliendo.com> (https://michaelliendo.com/)",
   "license": "MIT",
   "dependencies": {
+    "node-fetch": "^3.3.0",
     "xmlhttprequest": "^1.8.0"
   }
 }
