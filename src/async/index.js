@@ -1,17 +1,17 @@
-const fnAsync = ()=>{
+const fnAsync = () => {
   return new Promise((resolve, reject) => {
-    (true) 
-      ? setTimeout(()=> resolve('Async!!'), 2000)
-      : reject(new Error('Error'))
-  })
-}
+    true
+      ? setTimeout(() => resolve('Async!!'), 2000)
+      : reject(new Error('Error'));
+  });
+};
 
 const anotherFn = async () => {
-  const something = await fnAsync()
+  const something = await fnAsync();
   console.log(something);
-  console.log("Hello");
-}
+  console.log('Hello');
+};
 
-console.log("before");
-anotherFn()
-console.log("after");
+console.log('before');
+anotherFn();
+console.log('after');
